@@ -17,7 +17,7 @@ const Header = () => {
     <div className="sticky top-0 flex px-8 py-4 items-center justify-around shadow-lg bg-white">
       <div className="flex">
         <Link href="/">
-          <p className="text-3xl font-bold items-center no-underline text-accent">
+          <p className="font-inter text-3xl font-bold items-center no-underline text-accent">
             Vacancio
           </p>
         </Link>
@@ -40,7 +40,7 @@ const Header = () => {
         {auth ? (
           <div className="flex items-center space-x-2 text-lg font-semibold">
             <Image src="/pfp.svg" alt="pfp" width={30} height={30} />
-            <p className="">Mizamova Moldir</p>
+            <p className="font-inter">Mizamova Moldir</p>
           </div>
         ) : (
           <div className="flex flex-row text-xl">

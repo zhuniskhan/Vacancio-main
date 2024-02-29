@@ -16,7 +16,10 @@ module.exports = {
       colors: {
         accent: "#005A9B",
         primary: "#7D92A1",
-        border: "#FF611E",
+        secondary: "#FF611E",
+      },
+      fontFamily: {
+        inter: ["Inter"],
       },
     },
   },

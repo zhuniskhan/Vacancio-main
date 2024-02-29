@@ -10,7 +10,7 @@ const registerPage = () => {
         <div className="flex flex-1 w-1/2 py-16 justify-center">
           <div className="flex flex-col w-[550px] h-[481px] space-y-4 bg-white p-8">
             <div className="flex flex-col">
-              <p className="text-primary font-bold">Email</p>
+              <p className="font-inter text-primary font-bold">Email</p>
               <input
                 placeholder="Email"
                 type="text"
@@ -19,7 +19,7 @@ const registerPage = () => {
               />
             </div>
             <div className="flex flex-col">
-              <p className="text-primary font-bold">Password</p>
+              <p className="font-inter text-primary font-bold">Password</p>
               <input
                 className="border border-gray-300 rounded-lg py-3 placeholder:text-primary p-2"
                 type="text"
@@ -27,7 +27,9 @@ const registerPage = () => {
               />
             </div>
             <div className="flex flex-col">
-              <p className="text-primary font-bold">Repeat the password</p>
+              <p className="font-inter text-primary font-bold">
+                Repeat the password
+              </p>
               <input
                 className="border border-gray-300 rounded-lg py-3 placeholder:text-primary p-2"
                 type="text"
@@ -35,12 +37,12 @@ const registerPage = () => {
               />
             </div>
             <div className="py-2 w-full">
-              <button className="border bg-blue-900 text-white py-3  w-full rounded-[10px] font-semibold">
+              <button className="font-inter border bg-blue-900 text-white py-3  w-full rounded-[10px] font-semibold">
                 Sign up
               </button>
             </div>
             <div className="py-2 w-full">
-              <button className="border-2 border-blue-900 bg-white text-blue-900 py-3 w-full rounded-[10px] font-semibold">
+              <button className="font-inter border-2 border-blue-900 bg-white text-blue-900 py-3 w-full rounded-[10px] font-semibold">
                 Already have an account? Log in
               </button>
             </div>
