@@ -17,6 +17,10 @@ module.exports = {
         accent: "#005A9B",
         primary: "#7D92A1",
         secondary: "#FF611E",
+        third: "#F3F5F8",
+        medium: "#566976",
+        high: "#324552",
+        low: "#7D92A1",
       },
       fontFamily: {
         inter: ["Inter"],

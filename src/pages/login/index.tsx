@@ -8,7 +8,7 @@ const LoginPage = () => {
       <Header />
       <div className="flex items-center">
         <div className="flex flex-1 w-1/2 items-center justify-center">
-          <div className="flex flex-col w-[550px] h-[392px] space-y-4 bg-white p-8">
+          <div className="flex flex-col w-[550px] h-[392px] space-y-4 bg-white p-8 shadow-lg rounded-[10px]">
             <div className="flex flex-col ">
               <p className="font-inter text-primary font-bold ">Email</p>
               <input
